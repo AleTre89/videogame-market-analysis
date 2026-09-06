@@ -1,5 +1,5 @@
 # 🎮 **analisi su vendite e recensioni del mercato videogiochi**
-Un caso studio su come distinguere un vero trend da un problema di assenza di dati.
+>**Un caso studio su come distinguere un vero trend da un problema di assenza di dati.**
 
 *Il mercato non sta calando: sono i dati a essere incompleti*
 
@@ -8,24 +8,24 @@ Un caso studio su come distinguere un vero trend da un problema di assenza di da
 ***
 
 ## CONTENUTI:
-  1. [storia](#la-storia).
-  2. domanda
-  3. dati 
-  4. strumenti
-  5. [risultato](@-il-risultato)
+  1. [storia](#-la-storia)
+  2. [domanda](#-quale-genere-di-gioco-produciamo)
+  3. [dati](#-i-dati)
+  4. [strumenti](#-strumenti)
+  5. [risultato](#-il-risultato)
 
 ***
 
-###  📕 **la storia**
+##  📕 **la storia**
 SoftAlex è una software house che vuole produrre un nuovo videogioco.
 
 Il grande successo della loro prima produzione indie, "Tartis", ha portato loro molti fondi. E questo comporta molte scelte da fare...
 
 
-### ❓ **quale genere di gioco è meglio produrre?**
+## ❓ **quale genere di gioco produciamo?**
 SoftAlex vuole esplorare la storia del mercato dei videogiochi e la sua situazione attuale per scegliere il genere del loro nuovo capolavoro.
 
-### 📁 **i dati**
+## 📁 **i dati**
 Da dove arrivano i dati:
 - Vendite storico: ci sono tanti dataset sull'argomento, alcuni di essi riportano dati non realistici. Dopo attente ricerche ho selezionato questo per la sua ricchezza.
   
@@ -36,7 +36,7 @@ Da dove arrivano i dati:
   **link**: [SteamSpy API](https://steamspy.com/)
 
   
-### 🧑‍💻 **strumenti**
+## 🧑‍💻 **strumenti**
 Formato: Notebook Jupyter
 
 Esplorazione, raggruppamento e trasformazione: Python(Pandas e Numpy) - SQL (sqlite3)
@@ -44,7 +44,7 @@ Esplorazione, raggruppamento e trasformazione: Python(Pandas e Numpy) - SQL (sql
 Visualizzazione: Matplotlib
 
 
-### 📋 **il risultato** 
+## 📋 **il risultato** 
 I dati ci dicono che i gamer adorano i giochi di azione, shooter, strategici e GDR.
 
 🛑 **Attenzione** Nonostante la coerenza dell'output, i dati mostrati **NON** possono essere considerati affidabili al 100%. 
