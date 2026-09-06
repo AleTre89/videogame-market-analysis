@@ -1,29 +1,38 @@
 # 🎮 **analisi su vendite e recensioni del mercato videogiochi**
 >**Un caso studio su come distinguere un vero trend da un problema di assenza di dati.**
 
+![Python](https://img.shields.io/badge/Python-blue?logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-07405E?logo=sqlite&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+
 *Il mercato non sta calando: sono i dati a essere incompleti*
 
 ![grafico_assenza_dati](GraficoVuoti.png)
 
+<br><br>
+
 ***
 
 ## CONTENUTI:
-  1. [storia](#-la-storia)
-  2. [domanda](#-quale-genere-di-gioco-produciamo)
+  1. [storia](#-la-storia) 
+  2. [domanda](#-quale-genere-di-gioco-produciamo?)
   3. [dati](#-i-dati)
   4. [strumenti](#-strumenti)
   5. [risultato](#-il-risultato)
 
 ***
 
+<br><br>
+
 ##  📕 **la storia**
 SoftAlex è una software house che vuole produrre un nuovo videogioco.
 
 Il grande successo della loro prima produzione indie, "Tartis", ha portato loro molti fondi. E questo comporta molte scelte da fare...
 
+<br><br>
 
 ## ❓ **quale genere di gioco produciamo?**
 SoftAlex vuole esplorare la storia del mercato dei videogiochi e la sua situazione attuale per scegliere il genere del loro nuovo capolavoro.
+
+<br><br>
 
 ## 📁 **i dati**
 Da dove arrivano i dati:
@@ -35,7 +44,8 @@ Da dove arrivano i dati:
   
   **link**: [SteamSpy API](https://steamspy.com/)
 
-  
+<br><br>
+
 ## 🧑‍💻 **strumenti**
 Formato: Notebook Jupyter
 
@@ -43,6 +53,7 @@ Esplorazione, raggruppamento e trasformazione: Python(Pandas e Numpy) - SQL (sql
 
 Visualizzazione: Matplotlib
 
+<br><br>
 
 ## 📋 **il risultato** 
 I dati ci dicono che i gamer adorano i giochi di azione, shooter, strategici e GDR.
